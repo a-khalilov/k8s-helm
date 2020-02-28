@@ -1,0 +1,8 @@
+global:
+  namespace: dev
+deployment:
+  name: nginx-deployment
+  tag: latest
+ingress:
+  host: external-k8s-lb-1659950886.eu-central-1.elb.amazonaws.com
+
